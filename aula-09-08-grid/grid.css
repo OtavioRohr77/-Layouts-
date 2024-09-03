@@ -1,0 +1,57 @@
+.grid-container{
+    width: 100%;
+    height: 1900px;
+    display: grid;
+    grid-template-rows: 3, 33.3%;
+    grid-template-columns: 1;
+    margin:0px;
+    background-color: red;
+}
+
+.grid-container > div{
+    background-color: purple;    
+    text-align: center;
+    padding: 20px 0;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    background-color:blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    text-align: center;
+    background-color:green;
+}
+
+.grid-container main img{
+    margin-top: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    margin-top: 100%;
+}
+
+h1{
+    font-size: 200px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 500px;
+}
+
+p{
+    text-align:center;
+}
